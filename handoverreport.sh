@@ -104,14 +104,14 @@ cat <<EOF > "$HTML_FILE"
   </style>
 </head>
 <body>
-  <h2>PagerDuty Incidents (Last 12 Hours, Dublin Time)</h2>
+  <h2>PagerDuty Incidents (Last 12 Hours, Zulu Time)</h2>
   <table>
     <tr>
       <th>ID</th>
       <th>Title</th>
       <th>Status</th>
-      <th>Created At (Dublin)</th>
-      <th>Resolved At (Dublin)</th>
+      <th>Created At (Zulu)</th>
+      <th>Resolved At (Zulu)</th>
       <th>Service</th>
       <th>Latest Human Note</th>
       <th>Business Hours</th>
